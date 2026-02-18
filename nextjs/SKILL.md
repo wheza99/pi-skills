@@ -20,20 +20,23 @@ npm run dev
 ### Struktur Direktori App Router
 
 ```
-app/
-├── layout.js          # Root layout (wajib)
-├── page.js            # Home page (/)
-├── loading.js         # Loading UI
-├── error.js           # Error handling
-├── not-found.js       # 404 page
-├── globals.css        # Global styles
-├── favicon.ico        # Favicon
-├── api/               # API routes
-│   └── route.js
-├── (group)/           # Route groups
-│   └── page.js
-└── [dynamic]/         # Dynamic routes
-    └── page.js
+src/
+├── app/
+│   ├── layout.tsx      # Root layout (wajib)
+│   ├── page.tsx        # Home page (/)
+│   ├── loading.tsx     # Loading UI
+│   ├── error.tsx       # Error handling
+│   ├── not-found.tsx   # 404 page
+│   ├── globals.css     # Global styles
+│   ├── favicon.ico     # Favicon
+│   ├── api/            # API routes
+│   │   └── route.ts
+│   ├── (group)/        # Route groups
+│   │   └── page.tsx
+│   └── [dynamic]/      # Dynamic routes
+│       └── page.tsx
+├── proxy.ts            # Proxy (Next.js 16+) - run code before request
+└── lib/                # Utilities dan helpers
 ```
 
 ## Routing
@@ -42,11 +45,12 @@ app/
 
 | File | Route | Deskripsi |
 |------|-------|-----------|
-| `app/page.js` | `/` | Home page |
-| `app/about/page.js` | `/about` | About page |
-| `app/blog/[slug]/page.js` | `/blog/hello` | Dynamic route |
-| `app/blog/[...slug]/page.js` | `/blog/a/b/c` | Catch-all route |
-| `app/api/route.js` | `/api` | API endpoint |
+| `app/page.tsx` | `/` | Home page |
+| `app/about/page.tsx` | `/about` | About page |
+| `app/blog/[slug]/page.tsx` | `/blog/hello` | Dynamic route |
+| `app/blog/[...slug]/page.tsx` | `/blog/a/b/c` | Catch-all route |
+| `app/api/route.ts` | `/api` | API endpoint |
+| `src/proxy.ts` | - | Proxy (Next.js 16+) |
 
 ### Pages Router (Legacy)
 
@@ -58,7 +62,7 @@ app/
 
 ## Page & Layout
 
-### Page (app/page.js)
+### Page (app/page.tsx)
 
 ```tsx
 // app/page.tsx
@@ -67,7 +71,7 @@ export default function Home() {
 }
 ```
 
-### Layout (app/layout.js)
+### Layout (app/layout.tsx)
 
 ```tsx
 // app/layout.tsx
@@ -399,10 +403,93 @@ export default function NotFound() {
 }
 ```
 
-## Middleware
+## Proxy (Next.js 16+)
+
+> **Good to know:** Starting with Next.js 16, Middleware is now called **Proxy** to better reflect its purpose. The functionality remains the same.
+
+Proxy allows you to run code before a request is completed. You can modify the response by rewriting, redirecting, modifying headers, or responding directly.
+
+### Convention
+
+Create a `proxy.ts` (or `.js`) file in the project root, or inside `src/` if applicable.
 
 ```tsx
-// middleware.ts
+// src/proxy.ts
+import { NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
+
+// Named export or default export
+export function proxy(request: NextRequest) {
+  // Check auth, redirect, rewrite, etc.
+  if (!request.cookies.get('token')) {
+    return NextResponse.redirect(new URL('/login', request.url))
+  }
+  return NextResponse.next()
+}
+
+// Alternatively, use default export:
+// export default function proxy(request: NextRequest) { ... }
+
+export const config = {
+  matcher: '/dashboard/:path*',
+}
+```
+
+### Use Cases
+
+- Modifying headers for all pages or a subset of pages
+- Rewriting to different pages based on A/B tests
+- Programmatic redirects based on request properties
+- Auth checks and session validation
+
+### Matcher Config
+
+```tsx
+// Single path
+matcher: '/about/:path*'
+
+// Multiple paths
+matcher: ['/about/:path*', '/dashboard/:path*']
+
+// Regex
+matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)']
+```
+
+### Modifying Headers
+
+```tsx
+export function proxy(request: NextRequest) {
+  const response = NextResponse.next()
+  
+  // Set custom header
+  response.headers.set('x-custom-header', 'value')
+  
+  return response
+}
+```
+
+### Rewrites
+
+```tsx
+export function proxy(request: NextRequest) {
+  return NextResponse.rewrite(new URL('/new-path', request.url))
+}
+```
+
+### Important Notes
+
+- **Not for slow data fetching** - Proxy should not be used for full session management
+- **Using fetch** with `options.cache`, `options.next.revalidate`, or `options.next.tags` has no effect in Proxy
+- **Single file** - Only one `proxy.ts` file per project, but you can organize logic into modules
+
+---
+
+## Middleware (Next.js 15 and below)
+
+> **Deprecated:** In Next.js 16+, Middleware is renamed to Proxy. Use `proxy.ts` for new projects.
+
+```tsx
+// middleware.ts (Next.js 15 and below)
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
