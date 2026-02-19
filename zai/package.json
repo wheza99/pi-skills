@@ -1,0 +1,15 @@
+{
+  "name": "zai-skill",
+  "version": "1.0.0",
+  "description": "Z.AI API helper scripts for pi coding agent",
+  "scripts": {
+    "chat": "node scripts/chat.js",
+    "image": "node scripts/image.js",
+    "vision": "node scripts/vision.js",
+    "stt": "node scripts/stt.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "form-data": "^4.0.0"
+  }
+}

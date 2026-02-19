@@ -1,0 +1,13 @@
+{
+  "name": "waha-skill",
+  "version": "1.0.0",
+  "description": "WAHA (WhatsApp HTTP API) helper scripts for pi coding agent",
+  "scripts": {
+    "send": "node scripts/send.js",
+    "sessions": "node scripts/sessions.js",
+    "groups": "node scripts/groups.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}

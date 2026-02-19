@@ -1,0 +1,3301 @@
+{
+  "categories": [
+    {
+      "name": "Core",
+      "subcategories": [
+        {
+          "name": "Animation",
+          "items": [
+            {
+              "text": "AnimationAction",
+              "href": "pages/AnimationAction.html"
+            },
+            {
+              "text": "AnimationClip",
+              "href": "pages/AnimationClip.html"
+            },
+            {
+              "text": "AnimationMixer",
+              "href": "pages/AnimationMixer.html"
+            },
+            {
+              "text": "AnimationObjectGroup",
+              "href": "pages/AnimationObjectGroup.html"
+            },
+            {
+              "text": "AnimationUtils",
+              "href": "pages/AnimationUtils.html"
+            },
+            {
+              "text": "BooleanKeyframeTrack",
+              "href": "pages/BooleanKeyframeTrack.html"
+            },
+            {
+              "text": "ColorKeyframeTrack",
+              "href": "pages/ColorKeyframeTrack.html"
+            },
+            {
+              "text": "KeyframeTrack",
+              "href": "pages/KeyframeTrack.html"
+            },
+            {
+              "text": "NumberKeyframeTrack",
+              "href": "pages/NumberKeyframeTrack.html"
+            },
+            {
+              "text": "PropertyBinding",
+              "href": "pages/PropertyBinding.html"
+            },
+            {
+              "text": "PropertyMixer",
+              "href": "pages/PropertyMixer.html"
+            },
+            {
+              "text": "QuaternionKeyframeTrack",
+              "href": "pages/QuaternionKeyframeTrack.html"
+            },
+            {
+              "text": "StringKeyframeTrack",
+              "href": "pages/StringKeyframeTrack.html"
+            },
+            {
+              "text": "VectorKeyframeTrack",
+              "href": "pages/VectorKeyframeTrack.html"
+            }
+          ]
+        },
+        {
+          "name": "Audio",
+          "items": [
+            {
+              "text": "Audio",
+              "href": "pages/Audio.html"
+            },
+            {
+              "text": "AudioAnalyser",
+              "href": "pages/AudioAnalyser.html"
+            },
+            {
+              "text": "AudioContext",
+              "href": "pages/AudioContext.html"
+            },
+            {
+              "text": "AudioListener",
+              "href": "pages/AudioListener.html"
+            },
+            {
+              "text": "PositionalAudio",
+              "href": "pages/PositionalAudio.html"
+            }
+          ]
+        },
+        {
+          "name": "Cameras",
+          "items": [
+            {
+              "text": "ArrayCamera",
+              "href": "pages/ArrayCamera.html"
+            },
+            {
+              "text": "Camera",
+              "href": "pages/Camera.html"
+            },
+            {
+              "text": "CubeCamera",
+              "href": "pages/CubeCamera.html"
+            },
+            {
+              "text": "OrthographicCamera",
+              "href": "pages/OrthographicCamera.html"
+            },
+            {
+              "text": "PerspectiveCamera",
+              "href": "pages/PerspectiveCamera.html"
+            },
+            {
+              "text": "StereoCamera",
+              "href": "pages/StereoCamera.html"
+            }
+          ]
+        },
+        {
+          "name": "Core",
+          "items": [
+            {
+              "text": "BufferAttribute",
+              "href": "pages/BufferAttribute.html"
+            },
+            {
+              "text": "BufferGeometry",
+              "href": "pages/BufferGeometry.html"
+            },
+            {
+              "text": "Clock",
+              "href": "pages/Clock.html"
+            },
+            {
+              "text": "EventDispatcher",
+              "href": "pages/EventDispatcher.html"
+            },
+            {
+              "text": "Float16BufferAttribute",
+              "href": "pages/Float16BufferAttribute.html"
+            },
+            {
+              "text": "Float32BufferAttribute",
+              "href": "pages/Float32BufferAttribute.html"
+            },
+            {
+              "text": "GLBufferAttribute",
+              "href": "pages/GLBufferAttribute.html"
+            },
+            {
+              "text": "InstancedBufferAttribute",
+              "href": "pages/InstancedBufferAttribute.html"
+            },
+            {
+              "text": "InstancedBufferGeometry",
+              "href": "pages/InstancedBufferGeometry.html"
+            },
+            {
+              "text": "InstancedInterleavedBuffer",
+              "href": "pages/InstancedInterleavedBuffer.html"
+            },
+            {
+              "text": "Int16BufferAttribute",
+              "href": "pages/Int16BufferAttribute.html"
+            },
+            {
+              "text": "Int32BufferAttribute",
+              "href": "pages/Int32BufferAttribute.html"
+            },
+            {
+              "text": "Int8BufferAttribute",
+              "href": "pages/Int8BufferAttribute.html"
+            },
+            {
+              "text": "InterleavedBuffer",
+              "href": "pages/InterleavedBuffer.html"
+            },
+            {
+              "text": "InterleavedBufferAttribute",
+              "href": "pages/InterleavedBufferAttribute.html"
+            },
+            {
+              "text": "Layers",
+              "href": "pages/Layers.html"
+            },
+            {
+              "text": "Object3D",
+              "href": "pages/Object3D.html"
+            },
+            {
+              "text": "Raycaster",
+              "href": "pages/Raycaster.html"
+            },
+            {
+              "text": "RenderTarget",
+              "href": "pages/RenderTarget.html"
+            },
+            {
+              "text": "RenderTarget3D",
+              "href": "pages/RenderTarget3D.html"
+            },
+            {
+              "text": "Timer",
+              "href": "pages/Timer.html"
+            },
+            {
+              "text": "Uint16BufferAttribute",
+              "href": "pages/Uint16BufferAttribute.html"
+            },
+            {
+              "text": "Uint32BufferAttribute",
+              "href": "pages/Uint32BufferAttribute.html"
+            },
+            {
+              "text": "Uint8BufferAttribute",
+              "href": "pages/Uint8BufferAttribute.html"
+            },
+            {
+              "text": "Uint8ClampedBufferAttribute",
+              "href": "pages/Uint8ClampedBufferAttribute.html"
+            },
+            {
+              "text": "Uniform",
+              "href": "pages/Uniform.html"
+            },
+            {
+              "text": "UniformsGroup",
+              "href": "pages/UniformsGroup.html"
+            }
+          ]
+        },
+        {
+          "name": "Extras",
+          "items": [
+            {
+              "text": "ArcCurve",
+              "href": "pages/ArcCurve.html"
+            },
+            {
+              "text": "CatmullRomCurve3",
+              "href": "pages/CatmullRomCurve3.html"
+            },
+            {
+              "text": "Controls",
+              "href": "pages/Controls.html"
+            },
+            {
+              "text": "CubicBezierCurve",
+              "href": "pages/CubicBezierCurve.html"
+            },
+            {
+              "text": "CubicBezierCurve3",
+              "href": "pages/CubicBezierCurve3.html"
+            },
+            {
+              "text": "Curve",
+              "href": "pages/Curve.html"
+            },
+            {
+              "text": "CurvePath",
+              "href": "pages/CurvePath.html"
+            },
+            {
+              "text": "DataUtils",
+              "href": "pages/DataUtils.html"
+            },
+            {
+              "text": "Earcut",
+              "href": "pages/Earcut.html"
+            },
+            {
+              "text": "EllipseCurve",
+              "href": "pages/EllipseCurve.html"
+            },
+            {
+              "text": "ImageUtils",
+              "href": "pages/ImageUtils.html"
+            },
+            {
+              "text": "LineCurve",
+              "href": "pages/LineCurve.html"
+            },
+            {
+              "text": "LineCurve3",
+              "href": "pages/LineCurve3.html"
+            },
+            {
+              "text": "PMREMGenerator",
+              "href": "pages/PMREMGenerator.html"
+            },
+            {
+              "text": "Path",
+              "href": "pages/Path.html"
+            },
+            {
+              "text": "QuadraticBezierCurve",
+              "href": "pages/QuadraticBezierCurve.html"
+            },
+            {
+              "text": "QuadraticBezierCurve3",
+              "href": "pages/QuadraticBezierCurve3.html"
+            },
+            {
+              "text": "Shape",
+              "href": "pages/Shape.html"
+            },
+            {
+              "text": "ShapePath",
+              "href": "pages/ShapePath.html"
+            },
+            {
+              "text": "ShapeUtils",
+              "href": "pages/ShapeUtils.html"
+            },
+            {
+              "text": "SplineCurve",
+              "href": "pages/SplineCurve.html"
+            },
+            {
+              "text": "TextureUtils",
+              "href": "pages/TextureUtils.html"
+            },
+            {
+              "text": "Interpolations",
+              "href": "pages/module-Interpolations.html"
+            }
+          ]
+        },
+        {
+          "name": "Geometries",
+          "items": [
+            {
+              "text": "BoxGeometry",
+              "href": "pages/BoxGeometry.html"
+            },
+            {
+              "text": "CapsuleGeometry",
+              "href": "pages/CapsuleGeometry.html"
+            },
+            {
+              "text": "CircleGeometry",
+              "href": "pages/CircleGeometry.html"
+            },
+            {
+              "text": "ConeGeometry",
+              "href": "pages/ConeGeometry.html"
+            },
+            {
+              "text": "CylinderGeometry",
+              "href": "pages/CylinderGeometry.html"
+            },
+            {
+              "text": "DodecahedronGeometry",
+              "href": "pages/DodecahedronGeometry.html"
+            },
+            {
+              "text": "EdgesGeometry",
+              "href": "pages/EdgesGeometry.html"
+            },
+            {
+              "text": "ExtrudeGeometry",
+              "href": "pages/ExtrudeGeometry.html"
+            },
+            {
+              "text": "IcosahedronGeometry",
+              "href": "pages/IcosahedronGeometry.html"
+            },
+            {
+              "text": "LatheGeometry",
+              "href": "pages/LatheGeometry.html"
+            },
+            {
+              "text": "OctahedronGeometry",
+              "href": "pages/OctahedronGeometry.html"
+            },
+            {
+              "text": "PlaneGeometry",
+              "href": "pages/PlaneGeometry.html"
+            },
+            {
+              "text": "PolyhedronGeometry",
+              "href": "pages/PolyhedronGeometry.html"
+            },
+            {
+              "text": "RingGeometry",
+              "href": "pages/RingGeometry.html"
+            },
+            {
+              "text": "ShapeGeometry",
+              "href": "pages/ShapeGeometry.html"
+            },
+            {
+              "text": "SphereGeometry",
+              "href": "pages/SphereGeometry.html"
+            },
+            {
+              "text": "TetrahedronGeometry",
+              "href": "pages/TetrahedronGeometry.html"
+            },
+            {
+              "text": "TorusGeometry",
+              "href": "pages/TorusGeometry.html"
+            },
+            {
+              "text": "TorusKnotGeometry",
+              "href": "pages/TorusKnotGeometry.html"
+            },
+            {
+              "text": "TubeGeometry",
+              "href": "pages/TubeGeometry.html"
+            },
+            {
+              "text": "WireframeGeometry",
+              "href": "pages/WireframeGeometry.html"
+            }
+          ]
+        },
+        {
+          "name": "Helpers",
+          "items": [
+            {
+              "text": "ArrowHelper",
+              "href": "pages/ArrowHelper.html"
+            },
+            {
+              "text": "AxesHelper",
+              "href": "pages/AxesHelper.html"
+            },
+            {
+              "text": "Box3Helper",
+              "href": "pages/Box3Helper.html"
+            },
+            {
+              "text": "BoxHelper",
+              "href": "pages/BoxHelper.html"
+            },
+            {
+              "text": "CameraHelper",
+              "href": "pages/CameraHelper.html"
+            },
+            {
+              "text": "DirectionalLightHelper",
+              "href": "pages/DirectionalLightHelper.html"
+            },
+            {
+              "text": "GridHelper",
+              "href": "pages/GridHelper.html"
+            },
+            {
+              "text": "HemisphereLightHelper",
+              "href": "pages/HemisphereLightHelper.html"
+            },
+            {
+              "text": "PlaneHelper",
+              "href": "pages/PlaneHelper.html"
+            },
+            {
+              "text": "PointLightHelper",
+              "href": "pages/PointLightHelper.html"
+            },
+            {
+              "text": "PolarGridHelper",
+              "href": "pages/PolarGridHelper.html"
+            },
+            {
+              "text": "SkeletonHelper",
+              "href": "pages/SkeletonHelper.html"
+            },
+            {
+              "text": "SpotLightHelper",
+              "href": "pages/SpotLightHelper.html"
+            }
+          ]
+        },
+        {
+          "name": "Lights",
+          "items": [
+            {
+              "text": "AmbientLight",
+              "href": "pages/AmbientLight.html"
+            },
+            {
+              "text": "DirectionalLight",
+              "href": "pages/DirectionalLight.html"
+            },
+            {
+              "text": "DirectionalLightShadow",
+              "href": "pages/DirectionalLightShadow.html"
+            },
+            {
+              "text": "HemisphereLight",
+              "href": "pages/HemisphereLight.html"
+            },
+            {
+              "text": "IESSpotLight",
+              "href": "pages/IESSpotLight.html"
+            },
+            {
+              "text": "Light",
+              "href": "pages/Light.html"
+            },
+            {
+              "text": "LightProbe",
+              "href": "pages/LightProbe.html"
+            },
+            {
+              "text": "LightShadow",
+              "href": "pages/LightShadow.html"
+            },
+            {
+              "text": "PointLight",
+              "href": "pages/PointLight.html"
+            },
+            {
+              "text": "PointLightShadow",
+              "href": "pages/PointLightShadow.html"
+            },
+            {
+              "text": "ProjectorLight",
+              "href": "pages/ProjectorLight.html"
+            },
+            {
+              "text": "RectAreaLight",
+              "href": "pages/RectAreaLight.html"
+            },
+            {
+              "text": "SpotLight",
+              "href": "pages/SpotLight.html"
+            },
+            {
+              "text": "SpotLightShadow",
+              "href": "pages/SpotLightShadow.html"
+            }
+          ]
+        },
+        {
+          "name": "Loaders",
+          "items": [
+            {
+              "text": "AnimationLoader",
+              "href": "pages/AnimationLoader.html"
+            },
+            {
+              "text": "AudioLoader",
+              "href": "pages/AudioLoader.html"
+            },
+            {
+              "text": "BufferGeometryLoader",
+              "href": "pages/BufferGeometryLoader.html"
+            },
+            {
+              "text": "Cache",
+              "href": "pages/Cache.html"
+            },
+            {
+              "text": "CompressedTextureLoader",
+              "href": "pages/CompressedTextureLoader.html"
+            },
+            {
+              "text": "CubeTextureLoader",
+              "href": "pages/CubeTextureLoader.html"
+            },
+            {
+              "text": "DataTextureLoader",
+              "href": "pages/DataTextureLoader.html"
+            },
+            {
+              "text": "FileLoader",
+              "href": "pages/FileLoader.html"
+            },
+            {
+              "text": "ImageBitmapLoader",
+              "href": "pages/ImageBitmapLoader.html"
+            },
+            {
+              "text": "ImageLoader",
+              "href": "pages/ImageLoader.html"
+            },
+            {
+              "text": "Loader",
+              "href": "pages/Loader.html"
+            },
+            {
+              "text": "LoaderUtils",
+              "href": "pages/LoaderUtils.html"
+            },
+            {
+              "text": "LoadingManager",
+              "href": "pages/LoadingManager.html"
+            },
+            {
+              "text": "MaterialLoader",
+              "href": "pages/MaterialLoader.html"
+            },
+            {
+              "text": "NodeLoader",
+              "href": "pages/NodeLoader.html"
+            },
+            {
+              "text": "NodeMaterialLoader",
+              "href": "pages/NodeMaterialLoader.html"
+            },
+            {
+              "text": "NodeObjectLoader",
+              "href": "pages/NodeObjectLoader.html"
+            },
+            {
+              "text": "ObjectLoader",
+              "href": "pages/ObjectLoader.html"
+            },
+            {
+              "text": "TextureLoader",
+              "href": "pages/TextureLoader.html"
+            }
+          ]
+        },
+        {
+          "name": "Materials",
+          "items": [
+            {
+              "text": "Line2NodeMaterial",
+              "href": "pages/Line2NodeMaterial.html"
+            },
+            {
+              "text": "LineBasicMaterial",
+              "href": "pages/LineBasicMaterial.html"
+            },
+            {
+              "text": "LineBasicNodeMaterial",
+              "href": "pages/LineBasicNodeMaterial.html"
+            },
+            {
+              "text": "LineDashedMaterial",
+              "href": "pages/LineDashedMaterial.html"
+            },
+            {
+              "text": "LineDashedNodeMaterial",
+              "href": "pages/LineDashedNodeMaterial.html"
+            },
+            {
+              "text": "Material",
+              "href": "pages/Material.html"
+            },
+            {
+              "text": "MeshBasicMaterial",
+              "href": "pages/MeshBasicMaterial.html"
+            },
+            {
+              "text": "MeshBasicNodeMaterial",
+              "href": "pages/MeshBasicNodeMaterial.html"
+            },
+            {
+              "text": "MeshDepthMaterial",
+              "href": "pages/MeshDepthMaterial.html"
+            },
+            {
+              "text": "MeshDistanceMaterial",
+              "href": "pages/MeshDistanceMaterial.html"
+            },
+            {
+              "text": "MeshLambertMaterial",
+              "href": "pages/MeshLambertMaterial.html"
+            },
+            {
+              "text": "MeshLambertNodeMaterial",
+              "href": "pages/MeshLambertNodeMaterial.html"
+            },
+            {
+              "text": "MeshMatcapMaterial",
+              "href": "pages/MeshMatcapMaterial.html"
+            },
+            {
+              "text": "MeshMatcapNodeMaterial",
+              "href": "pages/MeshMatcapNodeMaterial.html"
+            },
+            {
+              "text": "MeshNormalMaterial",
+              "href": "pages/MeshNormalMaterial.html"
+            },
+            {
+              "text": "MeshNormalNodeMaterial",
+              "href": "pages/MeshNormalNodeMaterial.html"
+            },
+            {
+              "text": "MeshPhongMaterial",
+              "href": "pages/MeshPhongMaterial.html"
+            },
+            {
+              "text": "MeshPhongNodeMaterial",
+              "href": "pages/MeshPhongNodeMaterial.html"
+            },
+            {
+              "text": "MeshPhysicalMaterial",
+              "href": "pages/MeshPhysicalMaterial.html"
+            },
+            {
+              "text": "MeshPhysicalNodeMaterial",
+              "href": "pages/MeshPhysicalNodeMaterial.html"
+            },
+            {
+              "text": "MeshSSSNodeMaterial",
+              "href": "pages/MeshSSSNodeMaterial.html"
+            },
+            {
+              "text": "MeshStandardMaterial",
+              "href": "pages/MeshStandardMaterial.html"
+            },
+            {
+              "text": "MeshStandardNodeMaterial",
+              "href": "pages/MeshStandardNodeMaterial.html"
+            },
+            {
+              "text": "MeshToonMaterial",
+              "href": "pages/MeshToonMaterial.html"
+            },
+            {
+              "text": "MeshToonNodeMaterial",
+              "href": "pages/MeshToonNodeMaterial.html"
+            },
+            {
+              "text": "NodeMaterial",
+              "href": "pages/NodeMaterial.html"
+            },
+            {
+              "text": "NodeMaterialObserver",
+              "href": "pages/NodeMaterialObserver.html"
+            },
+            {
+              "text": "PointsMaterial",
+              "href": "pages/PointsMaterial.html"
+            },
+            {
+              "text": "PointsNodeMaterial",
+              "href": "pages/PointsNodeMaterial.html"
+            },
+            {
+              "text": "RawShaderMaterial",
+              "href": "pages/RawShaderMaterial.html"
+            },
+            {
+              "text": "SSSLightingModel",
+              "href": "pages/SSSLightingModel.html"
+            },
+            {
+              "text": "ShaderMaterial",
+              "href": "pages/ShaderMaterial.html"
+            },
+            {
+              "text": "ShadowMaterial",
+              "href": "pages/ShadowMaterial.html"
+            },
+            {
+              "text": "ShadowNodeMaterial",
+              "href": "pages/ShadowNodeMaterial.html"
+            },
+            {
+              "text": "SpriteMaterial",
+              "href": "pages/SpriteMaterial.html"
+            },
+            {
+              "text": "SpriteNodeMaterial",
+              "href": "pages/SpriteNodeMaterial.html"
+            },
+            {
+              "text": "VolumeNodeMaterial",
+              "href": "pages/VolumeNodeMaterial.html"
+            }
+          ]
+        },
+        {
+          "name": "Math",
+          "items": [
+            {
+              "text": "Box2",
+              "href": "pages/Box2.html"
+            },
+            {
+              "text": "Box3",
+              "href": "pages/Box3.html"
+            },
+            {
+              "text": "Color",
+              "href": "pages/Color.html"
+            },
+            {
+              "text": "CubicInterpolant",
+              "href": "pages/CubicInterpolant.html"
+            },
+            {
+              "text": "Cylindrical",
+              "href": "pages/Cylindrical.html"
+            },
+            {
+              "text": "DiscreteInterpolant",
+              "href": "pages/DiscreteInterpolant.html"
+            },
+            {
+              "text": "Euler",
+              "href": "pages/Euler.html"
+            },
+            {
+              "text": "Frustum",
+              "href": "pages/Frustum.html"
+            },
+            {
+              "text": "FrustumArray",
+              "href": "pages/FrustumArray.html"
+            },
+            {
+              "text": "Interpolant",
+              "href": "pages/Interpolant.html"
+            },
+            {
+              "text": "Line3",
+              "href": "pages/Line3.html"
+            },
+            {
+              "text": "LinearInterpolant",
+              "href": "pages/LinearInterpolant.html"
+            },
+            {
+              "text": "MathUtils",
+              "href": "pages/MathUtils.html"
+            },
+            {
+              "text": "Matrix2",
+              "href": "pages/Matrix2.html"
+            },
+            {
+              "text": "Matrix3",
+              "href": "pages/Matrix3.html"
+            },
+            {
+              "text": "Matrix4",
+              "href": "pages/Matrix4.html"
+            },
+            {
+              "text": "Plane",
+              "href": "pages/Plane.html"
+            },
+            {
+              "text": "Quaternion",
+              "href": "pages/Quaternion.html"
+            },
+            {
+              "text": "QuaternionLinearInterpolant",
+              "href": "pages/QuaternionLinearInterpolant.html"
+            },
+            {
+              "text": "Ray",
+              "href": "pages/Ray.html"
+            },
+            {
+              "text": "Sphere",
+              "href": "pages/Sphere.html"
+            },
+            {
+              "text": "Spherical",
+              "href": "pages/Spherical.html"
+            },
+            {
+              "text": "SphericalHarmonics3",
+              "href": "pages/SphericalHarmonics3.html"
+            },
+            {
+              "text": "Triangle",
+              "href": "pages/Triangle.html"
+            },
+            {
+              "text": "Vector2",
+              "href": "pages/Vector2.html"
+            },
+            {
+              "text": "Vector3",
+              "href": "pages/Vector3.html"
+            },
+            {
+              "text": "Vector4",
+              "href": "pages/Vector4.html"
+            }
+          ]
+        },
+        {
+          "name": "Nodes",
+          "items": [
+            {
+              "text": "AONode",
+              "href": "pages/AONode.html"
+            },
+            {
+              "text": "AmbientLightNode",
+              "href": "pages/AmbientLightNode.html"
+            },
+            {
+              "text": "AnalyticLightNode",
+              "href": "pages/AnalyticLightNode.html"
+            },
+            {
+              "text": "ArrayElementNode",
+              "href": "pages/ArrayElementNode.html"
+            },
+            {
+              "text": "ArrayNode",
+              "href": "pages/ArrayNode.html"
+            },
+            {
+              "text": "AssignNode",
+              "href": "pages/AssignNode.html"
+            },
+            {
+              "text": "AtomicFunctionNode",
+              "href": "pages/AtomicFunctionNode.html"
+            },
+            {
+              "text": "AttributeNode",
+              "href": "pages/AttributeNode.html"
+            },
+            {
+              "text": "BarrierNode",
+              "href": "pages/BarrierNode.html"
+            },
+            {
+              "text": "BasicEnvironmentNode",
+              "href": "pages/BasicEnvironmentNode.html"
+            },
+            {
+              "text": "BasicLightMapNode",
+              "href": "pages/BasicLightMapNode.html"
+            },
+            {
+              "text": "BasicLightingModel",
+              "href": "pages/BasicLightingModel.html"
+            },
+            {
+              "text": "BatchNode",
+              "href": "pages/BatchNode.html"
+            },
+            {
+              "text": "BitcastNode",
+              "href": "pages/BitcastNode.html"
+            },
+            {
+              "text": "BitcountNode",
+              "href": "pages/BitcountNode.html"
+            },
+            {
+              "text": "BufferAttributeNode",
+              "href": "pages/BufferAttributeNode.html"
+            },
+            {
+              "text": "BufferNode",
+              "href": "pages/BufferNode.html"
+            },
+            {
+              "text": "BuiltinNode",
+              "href": "pages/BuiltinNode.html"
+            },
+            {
+              "text": "BumpMapNode",
+              "href": "pages/BumpMapNode.html"
+            },
+            {
+              "text": "BypassNode",
+              "href": "pages/BypassNode.html"
+            },
+            {
+              "text": "ClippingNode",
+              "href": "pages/ClippingNode.html"
+            },
+            {
+              "text": "CodeNode",
+              "href": "pages/CodeNode.html"
+            },
+            {
+              "text": "ColorSpaceNode",
+              "href": "pages/ColorSpaceNode.html"
+            },
+            {
+              "text": "ComputeBuiltinNode",
+              "href": "pages/ComputeBuiltinNode.html"
+            },
+            {
+              "text": "ComputeNode",
+              "href": "pages/ComputeNode.html"
+            },
+            {
+              "text": "ConditionalNode",
+              "href": "pages/ConditionalNode.html"
+            },
+            {
+              "text": "ConstNode",
+              "href": "pages/ConstNode.html"
+            },
+            {
+              "text": "ContextNode",
+              "href": "pages/ContextNode.html"
+            },
+            {
+              "text": "ConvertNode",
+              "href": "pages/ConvertNode.html"
+            },
+            {
+              "text": "CubeMapNode",
+              "href": "pages/CubeMapNode.html"
+            },
+            {
+              "text": "CubeTextureNode",
+              "href": "pages/CubeTextureNode.html"
+            },
+            {
+              "text": "DirectionalLightNode",
+              "href": "pages/DirectionalLightNode.html"
+            },
+            {
+              "text": "EnvironmentNode",
+              "href": "pages/EnvironmentNode.html"
+            },
+            {
+              "text": "EventNode",
+              "href": "pages/EventNode.html"
+            },
+            {
+              "text": "ExpressionNode",
+              "href": "pages/ExpressionNode.html"
+            },
+            {
+              "text": "FlipNode",
+              "href": "pages/FlipNode.html"
+            },
+            {
+              "text": "FrontFacingNode",
+              "href": "pages/FrontFacingNode.html"
+            },
+            {
+              "text": "FunctionCallNode",
+              "href": "pages/FunctionCallNode.html"
+            },
+            {
+              "text": "FunctionNode",
+              "href": "pages/FunctionNode.html"
+            },
+            {
+              "text": "FunctionOverloadingNode",
+              "href": "pages/FunctionOverloadingNode.html"
+            },
+            {
+              "text": "GLSLNodeFunction",
+              "href": "pages/GLSLNodeFunction.html"
+            },
+            {
+              "text": "GLSLNodeParser",
+              "href": "pages/GLSLNodeParser.html"
+            },
+            {
+              "text": "HemisphereLightNode",
+              "href": "pages/HemisphereLightNode.html"
+            },
+            {
+              "text": "IESSpotLightNode",
+              "href": "pages/IESSpotLightNode.html"
+            },
+            {
+              "text": "IndexNode",
+              "href": "pages/IndexNode.html"
+            },
+            {
+              "text": "InputNode",
+              "href": "pages/InputNode.html"
+            },
+            {
+              "text": "InspectorNode",
+              "href": "pages/InspectorNode.html"
+            },
+            {
+              "text": "InstanceNode",
+              "href": "pages/InstanceNode.html"
+            },
+            {
+              "text": "InstancedMeshNode",
+              "href": "pages/InstancedMeshNode.html"
+            },
+            {
+              "text": "IrradianceNode",
+              "href": "pages/IrradianceNode.html"
+            },
+            {
+              "text": "IsolateNode",
+              "href": "pages/IsolateNode.html"
+            },
+            {
+              "text": "JoinNode",
+              "href": "pages/JoinNode.html"
+            },
+            {
+              "text": "LightProbeNode",
+              "href": "pages/LightProbeNode.html"
+            },
+            {
+              "text": "LightingContextNode",
+              "href": "pages/LightingContextNode.html"
+            },
+            {
+              "text": "LightingModel",
+              "href": "pages/LightingModel.html"
+            },
+            {
+              "text": "LightingNode",
+              "href": "pages/LightingNode.html"
+            },
+            {
+              "text": "LightsNode",
+              "href": "pages/LightsNode.html"
+            },
+            {
+              "text": "LoopNode",
+              "href": "pages/LoopNode.html"
+            },
+            {
+              "text": "MRTNode",
+              "href": "pages/MRTNode.html"
+            },
+            {
+              "text": "MaterialNode",
+              "href": "pages/MaterialNode.html"
+            },
+            {
+              "text": "MaterialReferenceNode",
+              "href": "pages/MaterialReferenceNode.html"
+            },
+            {
+              "text": "MathNode",
+              "href": "pages/MathNode.html"
+            },
+            {
+              "text": "MaxMipLevelNode",
+              "href": "pages/MaxMipLevelNode.html"
+            },
+            {
+              "text": "MemberNode",
+              "href": "pages/MemberNode.html"
+            },
+            {
+              "text": "ModelNode",
+              "href": "pages/ModelNode.html"
+            },
+            {
+              "text": "MorphNode",
+              "href": "pages/MorphNode.html"
+            },
+            {
+              "text": "Node",
+              "href": "pages/Node.html"
+            },
+            {
+              "text": "NodeAttribute",
+              "href": "pages/NodeAttribute.html"
+            },
+            {
+              "text": "NodeBuilder",
+              "href": "pages/NodeBuilder.html"
+            },
+            {
+              "text": "NodeCache",
+              "href": "pages/NodeCache.html"
+            },
+            {
+              "text": "NodeCode",
+              "href": "pages/NodeCode.html"
+            },
+            {
+              "text": "NodeFrame",
+              "href": "pages/NodeFrame.html"
+            },
+            {
+              "text": "NodeFunction",
+              "href": "pages/NodeFunction.html"
+            },
+            {
+              "text": "NodeFunctionInput",
+              "href": "pages/NodeFunctionInput.html"
+            },
+            {
+              "text": "NodeParser",
+              "href": "pages/NodeParser.html"
+            },
+            {
+              "text": "NodeUniform",
+              "href": "pages/NodeUniform.html"
+            },
+            {
+              "text": "NodeVar",
+              "href": "pages/NodeVar.html"
+            },
+            {
+              "text": "NodeVarying",
+              "href": "pages/NodeVarying.html"
+            },
+            {
+              "text": "NormalMapNode",
+              "href": "pages/NormalMapNode.html"
+            },
+            {
+              "text": "Object3DNode",
+              "href": "pages/Object3DNode.html"
+            },
+            {
+              "text": "OperatorNode",
+              "href": "pages/OperatorNode.html"
+            },
+            {
+              "text": "OutputStructNode",
+              "href": "pages/OutputStructNode.html"
+            },
+            {
+              "text": "PMREMNode",
+              "href": "pages/PMREMNode.html"
+            },
+            {
+              "text": "PackFloatNode",
+              "href": "pages/PackFloatNode.html"
+            },
+            {
+              "text": "ParameterNode",
+              "href": "pages/ParameterNode.html"
+            },
+            {
+              "text": "PassMultipleTextureNode",
+              "href": "pages/PassMultipleTextureNode.html"
+            },
+            {
+              "text": "PassNode",
+              "href": "pages/PassNode.html"
+            },
+            {
+              "text": "PassTextureNode",
+              "href": "pages/PassTextureNode.html"
+            },
+            {
+              "text": "PhongLightingModel",
+              "href": "pages/PhongLightingModel.html"
+            },
+            {
+              "text": "PhysicalLightingModel",
+              "href": "pages/PhysicalLightingModel.html"
+            },
+            {
+              "text": "PointLightNode",
+              "href": "pages/PointLightNode.html"
+            },
+            {
+              "text": "PointShadowNode",
+              "href": "pages/PointShadowNode.html"
+            },
+            {
+              "text": "PointUVNode",
+              "href": "pages/PointUVNode.html"
+            },
+            {
+              "text": "PosterizeNode",
+              "href": "pages/PosterizeNode.html"
+            },
+            {
+              "text": "ProjectorLightNode",
+              "href": "pages/ProjectorLightNode.html"
+            },
+            {
+              "text": "PropertyNode",
+              "href": "pages/PropertyNode.html"
+            },
+            {
+              "text": "RTTNode",
+              "href": "pages/RTTNode.html"
+            },
+            {
+              "text": "RangeNode",
+              "href": "pages/RangeNode.html"
+            },
+            {
+              "text": "RectAreaLightNode",
+              "href": "pages/RectAreaLightNode.html"
+            },
+            {
+              "text": "ReferenceBaseNode",
+              "href": "pages/ReferenceBaseNode.html"
+            },
+            {
+              "text": "ReferenceElementNode",
+              "href": "pages/ReferenceElementNode.html"
+            },
+            {
+              "text": "ReferenceNode",
+              "href": "pages/ReferenceNode.html"
+            },
+            {
+              "text": "ReflectorNode",
+              "href": "pages/ReflectorNode.html"
+            },
+            {
+              "text": "RemapNode",
+              "href": "pages/RemapNode.html"
+            },
+            {
+              "text": "RenderOutputNode",
+              "href": "pages/RenderOutputNode.html"
+            },
+            {
+              "text": "RendererReferenceNode",
+              "href": "pages/RendererReferenceNode.html"
+            },
+            {
+              "text": "Resources",
+              "href": "pages/Resources.html"
+            },
+            {
+              "text": "RotateNode",
+              "href": "pages/RotateNode.html"
+            },
+            {
+              "text": "SampleNode",
+              "href": "pages/SampleNode.html"
+            },
+            {
+              "text": "SceneNode",
+              "href": "pages/SceneNode.html"
+            },
+            {
+              "text": "ScreenNode",
+              "href": "pages/ScreenNode.html"
+            },
+            {
+              "text": "ScriptableNode",
+              "href": "pages/ScriptableNode.html"
+            },
+            {
+              "text": "ScriptableValueNode",
+              "href": "pages/ScriptableValueNode.html"
+            },
+            {
+              "text": "SetNode",
+              "href": "pages/SetNode.html"
+            },
+            {
+              "text": "ShadowBaseNode",
+              "href": "pages/ShadowBaseNode.html"
+            },
+            {
+              "text": "ShadowMaskModel",
+              "href": "pages/ShadowMaskModel.html"
+            },
+            {
+              "text": "ShadowNode",
+              "href": "pages/ShadowNode.html"
+            },
+            {
+              "text": "SkinningNode",
+              "href": "pages/SkinningNode.html"
+            },
+            {
+              "text": "SplitNode",
+              "href": "pages/SplitNode.html"
+            },
+            {
+              "text": "SpotLightNode",
+              "href": "pages/SpotLightNode.html"
+            },
+            {
+              "text": "SpriteSheetUVNode",
+              "href": "pages/SpriteSheetUVNode.html"
+            },
+            {
+              "text": "StackNode",
+              "href": "pages/StackNode.html"
+            },
+            {
+              "text": "StorageArrayElementNode",
+              "href": "pages/StorageArrayElementNode.html"
+            },
+            {
+              "text": "StorageBufferNode",
+              "href": "pages/StorageBufferNode.html"
+            },
+            {
+              "text": "StorageTextureNode",
+              "href": "pages/StorageTextureNode.html"
+            },
+            {
+              "text": "StructNode",
+              "href": "pages/StructNode.html"
+            },
+            {
+              "text": "StructTypeNode",
+              "href": "pages/StructTypeNode.html"
+            },
+            {
+              "text": "SubBuildNode",
+              "href": "pages/SubBuildNode.html"
+            },
+            {
+              "text": "SubgroupFunctionNode",
+              "href": "pages/SubgroupFunctionNode.html"
+            },
+            {
+              "text": "TempNode",
+              "href": "pages/TempNode.html"
+            },
+            {
+              "text": "Texture3DNode",
+              "href": "pages/Texture3DNode.html"
+            },
+            {
+              "text": "TextureNode",
+              "href": "pages/TextureNode.html"
+            },
+            {
+              "text": "TextureSizeNode",
+              "href": "pages/TextureSizeNode.html"
+            },
+            {
+              "text": "ToneMappingNode",
+              "href": "pages/ToneMappingNode.html"
+            },
+            {
+              "text": "ToonLightingModel",
+              "href": "pages/ToonLightingModel.html"
+            },
+            {
+              "text": "ToonOutlinePassNode",
+              "href": "pages/ToonOutlinePassNode.html"
+            },
+            {
+              "text": "UniformArrayElementNode",
+              "href": "pages/UniformArrayElementNode.html"
+            },
+            {
+              "text": "UniformArrayNode",
+              "href": "pages/UniformArrayNode.html"
+            },
+            {
+              "text": "UniformGroupNode",
+              "href": "pages/UniformGroupNode.html"
+            },
+            {
+              "text": "UniformNode",
+              "href": "pages/UniformNode.html"
+            },
+            {
+              "text": "UnpackFloatNode",
+              "href": "pages/UnpackFloatNode.html"
+            },
+            {
+              "text": "UserDataNode",
+              "href": "pages/UserDataNode.html"
+            },
+            {
+              "text": "VarNode",
+              "href": "pages/VarNode.html"
+            },
+            {
+              "text": "VaryingNode",
+              "href": "pages/VaryingNode.html"
+            },
+            {
+              "text": "VelocityNode",
+              "href": "pages/VelocityNode.html"
+            },
+            {
+              "text": "VertexColorNode",
+              "href": "pages/VertexColorNode.html"
+            },
+            {
+              "text": "ViewportDepthNode",
+              "href": "pages/ViewportDepthNode.html"
+            },
+            {
+              "text": "ViewportDepthTextureNode",
+              "href": "pages/ViewportDepthTextureNode.html"
+            },
+            {
+              "text": "ViewportSharedTextureNode",
+              "href": "pages/ViewportSharedTextureNode.html"
+            },
+            {
+              "text": "ViewportTextureNode",
+              "href": "pages/ViewportTextureNode.html"
+            },
+            {
+              "text": "VolumetricLightingModel",
+              "href": "pages/VolumetricLightingModel.html"
+            },
+            {
+              "text": "WorkgroupInfoElementNode",
+              "href": "pages/WorkgroupInfoElementNode.html"
+            },
+            {
+              "text": "WorkgroupInfoNode",
+              "href": "pages/WorkgroupInfoNode.html"
+            }
+          ]
+        },
+        {
+          "name": "Objects",
+          "items": [
+            {
+              "text": "BatchedMesh",
+              "href": "pages/BatchedMesh.html"
+            },
+            {
+              "text": "Bone",
+              "href": "pages/Bone.html"
+            },
+            {
+              "text": "ClippingGroup",
+              "href": "pages/ClippingGroup.html"
+            },
+            {
+              "text": "Group",
+              "href": "pages/Group.html"
+            },
+            {
+              "text": "InstancedMesh",
+              "href": "pages/InstancedMesh.html"
+            },
+            {
+              "text": "LOD",
+              "href": "pages/LOD.html"
+            },
+            {
+              "text": "Line",
+              "href": "pages/Line.html"
+            },
+            {
+              "text": "LineLoop",
+              "href": "pages/LineLoop.html"
+            },
+            {
+              "text": "LineSegments",
+              "href": "pages/LineSegments.html"
+            },
+            {
+              "text": "Mesh",
+              "href": "pages/Mesh.html"
+            },
+            {
+              "text": "Points",
+              "href": "pages/Points.html"
+            },
+            {
+              "text": "Skeleton",
+              "href": "pages/Skeleton.html"
+            },
+            {
+              "text": "SkinnedMesh",
+              "href": "pages/SkinnedMesh.html"
+            },
+            {
+              "text": "Sprite",
+              "href": "pages/Sprite.html"
+            }
+          ]
+        },
+        {
+          "name": "Renderers",
+          "items": [
+            {
+              "text": "BundleGroup",
+              "href": "pages/BundleGroup.html"
+            },
+            {
+              "text": "CanvasTarget",
+              "href": "pages/CanvasTarget.html"
+            },
+            {
+              "text": "CubeRenderTarget",
+              "href": "pages/CubeRenderTarget.html"
+            },
+            {
+              "text": "GLSLNodeBuilder",
+              "href": "pages/GLSLNodeBuilder.html"
+            },
+            {
+              "text": "IndirectStorageBufferAttribute",
+              "href": "pages/IndirectStorageBufferAttribute.html"
+            },
+            {
+              "text": "Info",
+              "href": "pages/Info.html"
+            },
+            {
+              "text": "InspectorBase",
+              "href": "pages/InspectorBase.html"
+            },
+            {
+              "text": "PostProcessing",
+              "href": "pages/PostProcessing.html"
+            },
+            {
+              "text": "QuadMesh",
+              "href": "pages/QuadMesh.html"
+            },
+            {
+              "text": "Renderer",
+              "href": "pages/Renderer.html"
+            },
+            {
+              "text": "Storage3DTexture",
+              "href": "pages/Storage3DTexture.html"
+            },
+            {
+              "text": "StorageArrayTexture",
+              "href": "pages/StorageArrayTexture.html"
+            },
+            {
+              "text": "StorageBufferAttribute",
+              "href": "pages/StorageBufferAttribute.html"
+            },
+            {
+              "text": "StorageInstancedBufferAttribute",
+              "href": "pages/StorageInstancedBufferAttribute.html"
+            },
+            {
+              "text": "StorageTexture",
+              "href": "pages/StorageTexture.html"
+            },
+            {
+              "text": "TimestampQueryPool",
+              "href": "pages/TimestampQueryPool.html"
+            },
+            {
+              "text": "WGSLNodeBuilder",
+              "href": "pages/WGSLNodeBuilder.html"
+            },
+            {
+              "text": "WGSLNodeFunction",
+              "href": "pages/WGSLNodeFunction.html"
+            },
+            {
+              "text": "WGSLNodeParser",
+              "href": "pages/WGSLNodeParser.html"
+            },
+            {
+              "text": "WebGL3DRenderTarget",
+              "href": "pages/WebGL3DRenderTarget.html"
+            },
+            {
+              "text": "WebGLArrayRenderTarget",
+              "href": "pages/WebGLArrayRenderTarget.html"
+            },
+            {
+              "text": "WebGLCubeRenderTarget",
+              "href": "pages/WebGLCubeRenderTarget.html"
+            },
+            {
+              "text": "WebGLRenderTarget",
+              "href": "pages/WebGLRenderTarget.html"
+            },
+            {
+              "text": "WebGLRenderer",
+              "href": "pages/WebGLRenderer.html"
+            },
+            {
+              "text": "WebGLTimestampQueryPool",
+              "href": "pages/WebGLTimestampQueryPool.html"
+            },
+            {
+              "text": "WebGPURenderer",
+              "href": "pages/WebGPURenderer.html"
+            },
+            {
+              "text": "WebGPUTimestampQueryPool",
+              "href": "pages/WebGPUTimestampQueryPool.html"
+            },
+            {
+              "text": "WebXRDepthSensing",
+              "href": "pages/WebXRDepthSensing.html"
+            },
+            {
+              "text": "WebXRManager",
+              "href": "pages/WebXRManager.html"
+            },
+            {
+              "text": "XRManager",
+              "href": "pages/XRManager.html"
+            },
+            {
+              "text": "UniformsUtils",
+              "href": "pages/module-UniformsUtils.html"
+            }
+          ]
+        },
+        {
+          "name": "Scenes",
+          "items": [
+            {
+              "text": "Fog",
+              "href": "pages/Fog.html"
+            },
+            {
+              "text": "FogExp2",
+              "href": "pages/FogExp2.html"
+            },
+            {
+              "text": "Scene",
+              "href": "pages/Scene.html"
+            }
+          ]
+        },
+        {
+          "name": "Textures",
+          "items": [
+            {
+              "text": "CanvasTexture",
+              "href": "pages/CanvasTexture.html"
+            },
+            {
+              "text": "CompressedArrayTexture",
+              "href": "pages/CompressedArrayTexture.html"
+            },
+            {
+              "text": "CompressedCubeTexture",
+              "href": "pages/CompressedCubeTexture.html"
+            },
+            {
+              "text": "CompressedTexture",
+              "href": "pages/CompressedTexture.html"
+            },
+            {
+              "text": "CubeDepthTexture",
+              "href": "pages/CubeDepthTexture.html"
+            },
+            {
+              "text": "CubeTexture",
+              "href": "pages/CubeTexture.html"
+            },
+            {
+              "text": "Data3DTexture",
+              "href": "pages/Data3DTexture.html"
+            },
+            {
+              "text": "DataArrayTexture",
+              "href": "pages/DataArrayTexture.html"
+            },
+            {
+              "text": "DataTexture",
+              "href": "pages/DataTexture.html"
+            },
+            {
+              "text": "DepthTexture",
+              "href": "pages/DepthTexture.html"
+            },
+            {
+              "text": "ExternalTexture",
+              "href": "pages/ExternalTexture.html"
+            },
+            {
+              "text": "FramebufferTexture",
+              "href": "pages/FramebufferTexture.html"
+            },
+            {
+              "text": "Source",
+              "href": "pages/Source.html"
+            },
+            {
+              "text": "Texture",
+              "href": "pages/Texture.html"
+            },
+            {
+              "text": "VideoFrameTexture",
+              "href": "pages/VideoFrameTexture.html"
+            },
+            {
+              "text": "VideoTexture",
+              "href": "pages/VideoTexture.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Addons",
+      "subcategories": [
+        {
+          "name": "Animation",
+          "items": [
+            {
+              "text": "AnimationClipCreator",
+              "href": "pages/AnimationClipCreator.html"
+            },
+            {
+              "text": "CCDIKHelper",
+              "href": "pages/CCDIKHelper.html"
+            },
+            {
+              "text": "CCDIKSolver",
+              "href": "pages/CCDIKSolver.html"
+            }
+          ]
+        },
+        {
+          "name": "Capabilities",
+          "items": [
+            {
+              "text": "WebGL",
+              "href": "pages/WebGL.html"
+            },
+            {
+              "text": "WebGPU",
+              "href": "pages/WebGPU.html"
+            }
+          ]
+        },
+        {
+          "name": "Controls",
+          "items": [
+            {
+              "text": "ArcballControls",
+              "href": "pages/ArcballControls.html"
+            },
+            {
+              "text": "DragControls",
+              "href": "pages/DragControls.html"
+            },
+            {
+              "text": "FirstPersonControls",
+              "href": "pages/FirstPersonControls.html"
+            },
+            {
+              "text": "FlyControls",
+              "href": "pages/FlyControls.html"
+            },
+            {
+              "text": "MapControls",
+              "href": "pages/MapControls.html"
+            },
+            {
+              "text": "OrbitControls",
+              "href": "pages/OrbitControls.html"
+            },
+            {
+              "text": "PointerLockControls",
+              "href": "pages/PointerLockControls.html"
+            },
+            {
+              "text": "TrackballControls",
+              "href": "pages/TrackballControls.html"
+            },
+            {
+              "text": "TransformControls",
+              "href": "pages/TransformControls.html"
+            }
+          ]
+        },
+        {
+          "name": "Csm",
+          "items": [
+            {
+              "text": "CSM",
+              "href": "pages/CSM.html"
+            },
+            {
+              "text": "CSMFrustum",
+              "href": "pages/CSMFrustum.html"
+            },
+            {
+              "text": "CSMHelper",
+              "href": "pages/CSMHelper.html"
+            },
+            {
+              "text": "CSMShadowNode",
+              "href": "pages/CSMShadowNode.html"
+            },
+            {
+              "text": "CSMShader",
+              "href": "pages/module-CSMShader.html"
+            }
+          ]
+        },
+        {
+          "name": "Curves",
+          "items": [
+            {
+              "text": "CinquefoilKnot",
+              "href": "pages/CinquefoilKnot.html"
+            },
+            {
+              "text": "DecoratedTorusKnot4a",
+              "href": "pages/DecoratedTorusKnot4a.html"
+            },
+            {
+              "text": "DecoratedTorusKnot4b",
+              "href": "pages/DecoratedTorusKnot4b.html"
+            },
+            {
+              "text": "DecoratedTorusKnot5a",
+              "href": "pages/DecoratedTorusKnot5a.html"
+            },
+            {
+              "text": "DecoratedTorusKnot5c",
+              "href": "pages/DecoratedTorusKnot5c.html"
+            },
+            {
+              "text": "FigureEightPolynomialKnot",
+              "href": "pages/FigureEightPolynomialKnot.html"
+            },
+            {
+              "text": "GrannyKnot",
+              "href": "pages/GrannyKnot.html"
+            },
+            {
+              "text": "HeartCurve",
+              "href": "pages/HeartCurve.html"
+            },
+            {
+              "text": "HelixCurve",
+              "href": "pages/HelixCurve.html"
+            },
+            {
+              "text": "KnotCurve",
+              "href": "pages/KnotCurve.html"
+            },
+            {
+              "text": "NURBSCurve",
+              "href": "pages/NURBSCurve.html"
+            },
+            {
+              "text": "NURBSSurface",
+              "href": "pages/NURBSSurface.html"
+            },
+            {
+              "text": "NURBSVolume",
+              "href": "pages/NURBSVolume.html"
+            },
+            {
+              "text": "TorusKnot",
+              "href": "pages/TorusKnot.html"
+            },
+            {
+              "text": "TrefoilKnot",
+              "href": "pages/TrefoilKnot.html"
+            },
+            {
+              "text": "TrefoilPolynomialKnot",
+              "href": "pages/TrefoilPolynomialKnot.html"
+            },
+            {
+              "text": "VivianiCurve",
+              "href": "pages/VivianiCurve.html"
+            },
+            {
+              "text": "NURBSUtils",
+              "href": "pages/module-NURBSUtils.html"
+            }
+          ]
+        },
+        {
+          "name": "Effects",
+          "items": [
+            {
+              "text": "AnaglyphEffect",
+              "href": "pages/AnaglyphEffect.html"
+            },
+            {
+              "text": "AsciiEffect",
+              "href": "pages/AsciiEffect.html"
+            },
+            {
+              "text": "OutlineEffect",
+              "href": "pages/OutlineEffect.html"
+            },
+            {
+              "text": "ParallaxBarrierEffect",
+              "href": "pages/ParallaxBarrierEffect.html"
+            },
+            {
+              "text": "StereoEffect",
+              "href": "pages/StereoEffect.html"
+            }
+          ]
+        },
+        {
+          "name": "Environments",
+          "items": [
+            {
+              "text": "DebugEnvironment",
+              "href": "pages/DebugEnvironment.html"
+            },
+            {
+              "text": "RoomEnvironment",
+              "href": "pages/RoomEnvironment.html"
+            }
+          ]
+        },
+        {
+          "name": "Exporters",
+          "items": [
+            {
+              "text": "DRACOExporter",
+              "href": "pages/DRACOExporter.html"
+            },
+            {
+              "text": "EXRExporter",
+              "href": "pages/EXRExporter.html"
+            },
+            {
+              "text": "GLTFExporter",
+              "href": "pages/GLTFExporter.html"
+            },
+            {
+              "text": "KTX2Exporter",
+              "href": "pages/KTX2Exporter.html"
+            },
+            {
+              "text": "OBJExporter",
+              "href": "pages/OBJExporter.html"
+            },
+            {
+              "text": "PLYExporter",
+              "href": "pages/PLYExporter.html"
+            },
+            {
+              "text": "STLExporter",
+              "href": "pages/STLExporter.html"
+            },
+            {
+              "text": "USDZExporter",
+              "href": "pages/USDZExporter.html"
+            }
+          ]
+        },
+        {
+          "name": "Geometries",
+          "items": [
+            {
+              "text": "BoxLineGeometry",
+              "href": "pages/BoxLineGeometry.html"
+            },
+            {
+              "text": "ConvexGeometry",
+              "href": "pages/ConvexGeometry.html"
+            },
+            {
+              "text": "DecalGeometry",
+              "href": "pages/DecalGeometry.html"
+            },
+            {
+              "text": "ParametricGeometry",
+              "href": "pages/ParametricGeometry.html"
+            },
+            {
+              "text": "RoundedBoxGeometry",
+              "href": "pages/RoundedBoxGeometry.html"
+            },
+            {
+              "text": "TeapotGeometry",
+              "href": "pages/TeapotGeometry.html"
+            },
+            {
+              "text": "TextGeometry",
+              "href": "pages/TextGeometry.html"
+            },
+            {
+              "text": "ParametricFunctions",
+              "href": "pages/module-ParametricFunctions.html"
+            }
+          ]
+        },
+        {
+          "name": "Gpgpu",
+          "items": [
+            {
+              "text": "BitonicSort",
+              "href": "pages/BitonicSort_BitonicSort.html"
+            }
+          ]
+        },
+        {
+          "name": "Helpers",
+          "items": [
+            {
+              "text": "LightProbeHelper",
+              "href": "pages/LightProbeHelper.html"
+            },
+            {
+              "text": "OctreeHelper",
+              "href": "pages/OctreeHelper.html"
+            },
+            {
+              "text": "PositionalAudioHelper",
+              "href": "pages/PositionalAudioHelper.html"
+            },
+            {
+              "text": "RapierHelper",
+              "href": "pages/RapierHelper.html"
+            },
+            {
+              "text": "RectAreaLightHelper",
+              "href": "pages/RectAreaLightHelper.html"
+            },
+            {
+              "text": "TextureHelper",
+              "href": "pages/TextureHelper.html"
+            },
+            {
+              "text": "VertexNormalsHelper",
+              "href": "pages/VertexNormalsHelper.html"
+            },
+            {
+              "text": "VertexTangentsHelper",
+              "href": "pages/VertexTangentsHelper.html"
+            },
+            {
+              "text": "ViewHelper",
+              "href": "pages/ViewHelper.html"
+            }
+          ]
+        },
+        {
+          "name": "Inspector",
+          "items": [
+            {
+              "text": "Tab",
+              "href": "pages/Tab.html"
+            }
+          ]
+        },
+        {
+          "name": "Interactive",
+          "items": [
+            {
+              "text": "HTMLMesh",
+              "href": "pages/HTMLMesh.html"
+            },
+            {
+              "text": "InteractiveGroup",
+              "href": "pages/InteractiveGroup.html"
+            },
+            {
+              "text": "SelectionBox",
+              "href": "pages/SelectionBox.html"
+            },
+            {
+              "text": "SelectionHelper",
+              "href": "pages/SelectionHelper.html"
+            }
+          ]
+        },
+        {
+          "name": "Lighting",
+          "items": [
+            {
+              "text": "TiledLighting",
+              "href": "pages/TiledLighting.html"
+            }
+          ]
+        },
+        {
+          "name": "Lights",
+          "items": [
+            {
+              "text": "LightProbeGenerator",
+              "href": "pages/LightProbeGenerator.html"
+            },
+            {
+              "text": "RectAreaLightTexturesLib",
+              "href": "pages/RectAreaLightTexturesLib.html"
+            },
+            {
+              "text": "RectAreaLightUniformsLib",
+              "href": "pages/RectAreaLightUniformsLib.html"
+            }
+          ]
+        },
+        {
+          "name": "Lines",
+          "items": [
+            {
+              "text": "Line2",
+              "href": "pages/Line2.html"
+            },
+            {
+              "text": "LineGeometry",
+              "href": "pages/LineGeometry.html"
+            },
+            {
+              "text": "LineMaterial",
+              "href": "pages/LineMaterial.html"
+            },
+            {
+              "text": "LineSegments2",
+              "href": "pages/LineSegments2.html"
+            },
+            {
+              "text": "LineSegmentsGeometry",
+              "href": "pages/LineSegmentsGeometry.html"
+            },
+            {
+              "text": "Wireframe",
+              "href": "pages/Wireframe.html"
+            },
+            {
+              "text": "WireframeGeometry2",
+              "href": "pages/WireframeGeometry2.html"
+            }
+          ]
+        },
+        {
+          "name": "Loaders",
+          "items": [
+            {
+              "text": "AMFLoader",
+              "href": "pages/AMFLoader.html"
+            },
+            {
+              "text": "BVHLoader",
+              "href": "pages/BVHLoader.html"
+            },
+            {
+              "text": "ColladaLoader",
+              "href": "pages/ColladaLoader.html"
+            },
+            {
+              "text": "DDSLoader",
+              "href": "pages/DDSLoader.html"
+            },
+            {
+              "text": "DRACOLoader",
+              "href": "pages/DRACOLoader.html"
+            },
+            {
+              "text": "EXRLoader",
+              "href": "pages/EXRLoader.html"
+            },
+            {
+              "text": "FBXLoader",
+              "href": "pages/FBXLoader.html"
+            },
+            {
+              "text": "Font",
+              "href": "pages/Font.html"
+            },
+            {
+              "text": "FontLoader",
+              "href": "pages/FontLoader.html"
+            },
+            {
+              "text": "GCodeLoader",
+              "href": "pages/GCodeLoader.html"
+            },
+            {
+              "text": "GLTFLoader",
+              "href": "pages/GLTFLoader.html"
+            },
+            {
+              "text": "HDRCubeTextureLoader",
+              "href": "pages/HDRCubeTextureLoader.html"
+            },
+            {
+              "text": "HDRLoader",
+              "href": "pages/HDRLoader.html"
+            },
+            {
+              "text": "IESLoader",
+              "href": "pages/IESLoader.html"
+            },
+            {
+              "text": "KMZLoader",
+              "href": "pages/KMZLoader.html"
+            },
+            {
+              "text": "KTX2Loader",
+              "href": "pages/KTX2Loader.html"
+            },
+            {
+              "text": "KTXLoader",
+              "href": "pages/KTXLoader.html"
+            },
+            {
+              "text": "LDrawLoader",
+              "href": "pages/LDrawLoader.html"
+            },
+            {
+              "text": "LUT3dlLoader",
+              "href": "pages/LUT3dlLoader.html"
+            },
+            {
+              "text": "LUTCubeLoader",
+              "href": "pages/LUTCubeLoader.html"
+            },
+            {
+              "text": "LUTImageLoader",
+              "href": "pages/LUTImageLoader.html"
+            },
+            {
+              "text": "LWOLoader",
+              "href": "pages/LWOLoader.html"
+            },
+            {
+              "text": "LottieLoader",
+              "href": "pages/LottieLoader.html"
+            },
+            {
+              "text": "MD2Loader",
+              "href": "pages/MD2Loader.html"
+            },
+            {
+              "text": "MDDLoader",
+              "href": "pages/MDDLoader.html"
+            },
+            {
+              "text": "MTLLoader",
+              "href": "pages/MTLLoader.html"
+            },
+            {
+              "text": "MaterialXLoader",
+              "href": "pages/MaterialXLoader.html"
+            },
+            {
+              "text": "NRRDLoader",
+              "href": "pages/NRRDLoader.html"
+            },
+            {
+              "text": "OBJLoader",
+              "href": "pages/OBJLoader.html"
+            },
+            {
+              "text": "PCDLoader",
+              "href": "pages/PCDLoader.html"
+            },
+            {
+              "text": "PDBLoader",
+              "href": "pages/PDBLoader.html"
+            },
+            {
+              "text": "PLYLoader",
+              "href": "pages/PLYLoader.html"
+            },
+            {
+              "text": "PVRLoader",
+              "href": "pages/PVRLoader.html"
+            },
+            {
+              "text": "Rhino3dmLoader",
+              "href": "pages/Rhino3dmLoader.html"
+            },
+            {
+              "text": "STLLoader",
+              "href": "pages/STLLoader.html"
+            },
+            {
+              "text": "SVGLoader",
+              "href": "pages/SVGLoader.html"
+            },
+            {
+              "text": "TDSLoader",
+              "href": "pages/TDSLoader.html"
+            },
+            {
+              "text": "TGALoader",
+              "href": "pages/TGALoader.html"
+            },
+            {
+              "text": "TIFFLoader",
+              "href": "pages/TIFFLoader.html"
+            },
+            {
+              "text": "TTFLoader",
+              "href": "pages/TTFLoader.html"
+            },
+            {
+              "text": "ThreeMFLoader",
+              "href": "pages/ThreeMFLoader.html"
+            },
+            {
+              "text": "USDLoader",
+              "href": "pages/USDLoader.html"
+            },
+            {
+              "text": "UltraHDRLoader",
+              "href": "pages/UltraHDRLoader.html"
+            },
+            {
+              "text": "VOXLoader",
+              "href": "pages/VOXLoader.html"
+            },
+            {
+              "text": "VRMLLoader",
+              "href": "pages/VRMLLoader.html"
+            },
+            {
+              "text": "VTKLoader",
+              "href": "pages/VTKLoader.html"
+            },
+            {
+              "text": "XYZLoader",
+              "href": "pages/XYZLoader.html"
+            }
+          ]
+        },
+        {
+          "name": "Materials",
+          "items": [
+            {
+              "text": "LDrawConditionalLineMaterial",
+              "href": "pages/LDrawConditionalLineMaterial.html"
+            },
+            {
+              "text": "MeshPostProcessingMaterial",
+              "href": "pages/MeshPostProcessingMaterial.html"
+            },
+            {
+              "text": "WoodNodeMaterial",
+              "href": "pages/WoodNodeMaterial.html"
+            }
+          ]
+        },
+        {
+          "name": "Math",
+          "items": [
+            {
+              "text": "Capsule",
+              "href": "pages/Capsule.html"
+            },
+            {
+              "text": "ColorConverter",
+              "href": "pages/ColorConverter.html"
+            },
+            {
+              "text": "ConvexHull",
+              "href": "pages/ConvexHull.html"
+            },
+            {
+              "text": "ImprovedNoise",
+              "href": "pages/ImprovedNoise.html"
+            },
+            {
+              "text": "Lut",
+              "href": "pages/Lut.html"
+            },
+            {
+              "text": "MeshSurfaceSampler",
+              "href": "pages/MeshSurfaceSampler.html"
+            },
+            {
+              "text": "OBB",
+              "href": "pages/OBB.html"
+            },
+            {
+              "text": "Octree",
+              "href": "pages/Octree.html"
+            },
+            {
+              "text": "SimplexNoise",
+              "href": "pages/SimplexNoise.html"
+            },
+            {
+              "text": "ColorSpaces",
+              "href": "pages/module-ColorSpaces.html"
+            }
+          ]
+        },
+        {
+          "name": "Misc",
+          "items": [
+            {
+              "text": "ConvexObjectBreaker",
+              "href": "pages/ConvexObjectBreaker.html"
+            },
+            {
+              "text": "GPUComputationRenderer",
+              "href": "pages/GPUComputationRenderer.html"
+            },
+            {
+              "text": "Gyroscope",
+              "href": "pages/Gyroscope.html"
+            },
+            {
+              "text": "MD2Character",
+              "href": "pages/MD2Character.html"
+            },
+            {
+              "text": "MD2CharacterComplex",
+              "href": "pages/MD2CharacterComplex.html"
+            },
+            {
+              "text": "MorphAnimMesh",
+              "href": "pages/MorphAnimMesh.html"
+            },
+            {
+              "text": "MorphBlendMesh",
+              "href": "pages/MorphBlendMesh.html"
+            },
+            {
+              "text": "ProgressiveLightMap",
+              "href": "pages/ProgressiveLightMap.html"
+            },
+            {
+              "text": "RollerCoasterGeometry",
+              "href": "pages/RollerCoasterGeometry.html"
+            },
+            {
+              "text": "RollerCoasterLiftersGeometry",
+              "href": "pages/RollerCoasterLiftersGeometry.html"
+            },
+            {
+              "text": "RollerCoasterShadowGeometry",
+              "href": "pages/RollerCoasterShadowGeometry.html"
+            },
+            {
+              "text": "SkyGeometry",
+              "href": "pages/SkyGeometry.html"
+            },
+            {
+              "text": "TreesGeometry",
+              "href": "pages/TreesGeometry.html"
+            },
+            {
+              "text": "TubePainter",
+              "href": "pages/TubePainter.html"
+            },
+            {
+              "text": "Volume",
+              "href": "pages/Volume.html"
+            },
+            {
+              "text": "VolumeSlice",
+              "href": "pages/VolumeSlice.html"
+            }
+          ]
+        },
+        {
+          "name": "Modifiers",
+          "items": [
+            {
+              "text": "EdgeSplitModifier",
+              "href": "pages/EdgeSplitModifier.html"
+            },
+            {
+              "text": "Flow",
+              "href": "pages/Flow.html"
+            },
+            {
+              "text": "InstancedFlow",
+              "href": "pages/InstancedFlow.html"
+            },
+            {
+              "text": "SimplifyModifier",
+              "href": "pages/SimplifyModifier.html"
+            },
+            {
+              "text": "TessellateModifier",
+              "href": "pages/TessellateModifier.html"
+            }
+          ]
+        },
+        {
+          "name": "Objects",
+          "items": [
+            {
+              "text": "GroundedSkybox",
+              "href": "pages/GroundedSkybox.html"
+            },
+            {
+              "text": "Lensflare",
+              "href": "pages/Lensflare.html"
+            },
+            {
+              "text": "LensflareElement",
+              "href": "pages/LensflareElement.html"
+            },
+            {
+              "text": "LensflareMesh",
+              "href": "pages/LensflareMesh.html"
+            },
+            {
+              "text": "MarchingCubes",
+              "href": "pages/MarchingCubes.html"
+            },
+            {
+              "text": "Reflector",
+              "href": "pages/Reflector.html"
+            },
+            {
+              "text": "ReflectorForSSRPass",
+              "href": "pages/ReflectorForSSRPass.html"
+            },
+            {
+              "text": "Refractor",
+              "href": "pages/Refractor.html"
+            },
+            {
+              "text": "ShadowMesh",
+              "href": "pages/ShadowMesh.html"
+            },
+            {
+              "text": "Sky",
+              "href": "pages/Sky.html"
+            },
+            {
+              "text": "SkyMesh",
+              "href": "pages/SkyMesh.html"
+            },
+            {
+              "text": "Water",
+              "href": "pages/Water.html"
+            },
+            {
+              "text": "WaterMesh",
+              "href": "pages/WaterMesh.html"
+            }
+          ]
+        },
+        {
+          "name": "Physics",
+          "items": [
+            {
+              "text": "AmmoPhysics",
+              "href": "pages/AmmoPhysics.html"
+            },
+            {
+              "text": "JoltPhysics",
+              "href": "pages/JoltPhysics.html"
+            },
+            {
+              "text": "RapierPhysics",
+              "href": "pages/RapierPhysics.html"
+            }
+          ]
+        },
+        {
+          "name": "Postprocessing",
+          "items": [
+            {
+              "text": "AfterimagePass",
+              "href": "pages/AfterimagePass.html"
+            },
+            {
+              "text": "BloomPass",
+              "href": "pages/BloomPass.html"
+            },
+            {
+              "text": "BokehPass",
+              "href": "pages/BokehPass.html"
+            },
+            {
+              "text": "ClearMaskPass",
+              "href": "pages/ClearMaskPass.html"
+            },
+            {
+              "text": "ClearPass",
+              "href": "pages/ClearPass.html"
+            },
+            {
+              "text": "CubeTexturePass",
+              "href": "pages/CubeTexturePass.html"
+            },
+            {
+              "text": "DotScreenPass",
+              "href": "pages/DotScreenPass.html"
+            },
+            {
+              "text": "EffectComposer",
+              "href": "pages/EffectComposer.html"
+            },
+            {
+              "text": "FXAAPass",
+              "href": "pages/FXAAPass.html"
+            },
+            {
+              "text": "FilmPass",
+              "href": "pages/FilmPass.html"
+            },
+            {
+              "text": "FullScreenQuad",
+              "href": "pages/FullScreenQuad.html"
+            },
+            {
+              "text": "GTAOPass",
+              "href": "pages/GTAOPass.html"
+            },
+            {
+              "text": "GlitchPass",
+              "href": "pages/GlitchPass.html"
+            },
+            {
+              "text": "HalftonePass",
+              "href": "pages/HalftonePass.html"
+            },
+            {
+              "text": "LUTPass",
+              "href": "pages/LUTPass.html"
+            },
+            {
+              "text": "MaskPass",
+              "href": "pages/MaskPass.html"
+            },
+            {
+              "text": "OutlinePass",
+              "href": "pages/OutlinePass.html"
+            },
+            {
+              "text": "OutputPass",
+              "href": "pages/OutputPass.html"
+            },
+            {
+              "text": "Pass",
+              "href": "pages/Pass.html"
+            },
+            {
+              "text": "RenderPass",
+              "href": "pages/RenderPass.html"
+            },
+            {
+              "text": "RenderPixelatedPass",
+              "href": "pages/RenderPixelatedPass.html"
+            },
+            {
+              "text": "RenderTransitionPass",
+              "href": "pages/RenderTransitionPass.html"
+            },
+            {
+              "text": "SAOPass",
+              "href": "pages/SAOPass.html"
+            },
+            {
+              "text": "SMAAPass",
+              "href": "pages/SMAAPass.html"
+            },
+            {
+              "text": "SSAARenderPass",
+              "href": "pages/SSAARenderPass.html"
+            },
+            {
+              "text": "SSAOPass",
+              "href": "pages/SSAOPass.html"
+            },
+            {
+              "text": "SSRPass",
+              "href": "pages/SSRPass.html"
+            },
+            {
+              "text": "SavePass",
+              "href": "pages/SavePass.html"
+            },
+            {
+              "text": "ShaderPass",
+              "href": "pages/ShaderPass.html"
+            },
+            {
+              "text": "TAARenderPass",
+              "href": "pages/TAARenderPass.html"
+            },
+            {
+              "text": "TexturePass",
+              "href": "pages/TexturePass.html"
+            },
+            {
+              "text": "UnrealBloomPass",
+              "href": "pages/UnrealBloomPass.html"
+            }
+          ]
+        },
+        {
+          "name": "Renderers",
+          "items": [
+            {
+              "text": "CSS2DObject",
+              "href": "pages/CSS2DObject.html"
+            },
+            {
+              "text": "CSS2DRenderer",
+              "href": "pages/CSS2DRenderer.html"
+            },
+            {
+              "text": "CSS3DObject",
+              "href": "pages/CSS3DObject.html"
+            },
+            {
+              "text": "CSS3DRenderer",
+              "href": "pages/CSS3DRenderer.html"
+            },
+            {
+              "text": "CSS3DSprite",
+              "href": "pages/CSS3DSprite.html"
+            },
+            {
+              "text": "Projector",
+              "href": "pages/Projector.html"
+            },
+            {
+              "text": "SVGObject",
+              "href": "pages/SVGObject.html"
+            },
+            {
+              "text": "SVGRenderer",
+              "href": "pages/SVGRenderer.html"
+            }
+          ]
+        },
+        {
+          "name": "Shaders",
+          "items": [
+            {
+              "text": "ACESFilmicToneMappingShader",
+              "href": "pages/module-ACESFilmicToneMappingShader.html"
+            },
+            {
+              "text": "AfterimageShader",
+              "href": "pages/module-AfterimageShader.html"
+            },
+            {
+              "text": "BasicShader",
+              "href": "pages/module-BasicShader.html"
+            },
+            {
+              "text": "BleachBypassShader",
+              "href": "pages/module-BleachBypassShader.html"
+            },
+            {
+              "text": "BlendShader",
+              "href": "pages/module-BlendShader.html"
+            },
+            {
+              "text": "BokehShader",
+              "href": "pages/module-BokehShader.html"
+            },
+            {
+              "text": "BokehShader2",
+              "href": "pages/module-BokehShader2.html"
+            },
+            {
+              "text": "BrightnessContrastShader",
+              "href": "pages/module-BrightnessContrastShader.html"
+            },
+            {
+              "text": "ColorCorrectionShader",
+              "href": "pages/module-ColorCorrectionShader.html"
+            },
+            {
+              "text": "ColorifyShader",
+              "href": "pages/module-ColorifyShader.html"
+            },
+            {
+              "text": "ConvolutionShader",
+              "href": "pages/module-ConvolutionShader.html"
+            },
+            {
+              "text": "CopyShader",
+              "href": "pages/module-CopyShader.html"
+            },
+            {
+              "text": "DOFMipMapShader",
+              "href": "pages/module-DOFMipMapShader.html"
+            },
+            {
+              "text": "DepthLimitedBlurShader",
+              "href": "pages/module-DepthLimitedBlurShader.html"
+            },
+            {
+              "text": "DigitalGlitch",
+              "href": "pages/module-DigitalGlitch.html"
+            },
+            {
+              "text": "DotScreenShader",
+              "href": "pages/module-DotScreenShader.html"
+            },
+            {
+              "text": "ExposureShader",
+              "href": "pages/module-ExposureShader.html"
+            },
+            {
+              "text": "FXAAShader",
+              "href": "pages/module-FXAAShader.html"
+            },
+            {
+              "text": "FilmShader",
+              "href": "pages/module-FilmShader.html"
+            },
+            {
+              "text": "FocusShader",
+              "href": "pages/module-FocusShader.html"
+            },
+            {
+              "text": "FreiChenShader",
+              "href": "pages/module-FreiChenShader.html"
+            },
+            {
+              "text": "GTAOShader",
+              "href": "pages/module-GTAOShader.html"
+            },
+            {
+              "text": "GammaCorrectionShader",
+              "href": "pages/module-GammaCorrectionShader.html"
+            },
+            {
+              "text": "GodRaysShader",
+              "href": "pages/module-GodRaysShader.html"
+            },
+            {
+              "text": "HalftoneShader",
+              "href": "pages/module-HalftoneShader.html"
+            },
+            {
+              "text": "HorizontalBlurShader",
+              "href": "pages/module-HorizontalBlurShader.html"
+            },
+            {
+              "text": "HorizontalTiltShiftShader",
+              "href": "pages/module-HorizontalTiltShiftShader.html"
+            },
+            {
+              "text": "HueSaturationShader",
+              "href": "pages/module-HueSaturationShader.html"
+            },
+            {
+              "text": "KaleidoShader",
+              "href": "pages/module-KaleidoShader.html"
+            },
+            {
+              "text": "LuminosityHighPassShader",
+              "href": "pages/module-LuminosityHighPassShader.html"
+            },
+            {
+              "text": "LuminosityShader",
+              "href": "pages/module-LuminosityShader.html"
+            },
+            {
+              "text": "MirrorShader",
+              "href": "pages/module-MirrorShader.html"
+            },
+            {
+              "text": "NormalMapShader",
+              "href": "pages/module-NormalMapShader.html"
+            },
+            {
+              "text": "OutputShader",
+              "href": "pages/module-OutputShader.html"
+            },
+            {
+              "text": "PoissonDenoiseShader",
+              "href": "pages/module-PoissonDenoiseShader.html"
+            },
+            {
+              "text": "RGBShiftShader",
+              "href": "pages/module-RGBShiftShader.html"
+            },
+            {
+              "text": "SAOShader",
+              "href": "pages/module-SAOShader.html"
+            },
+            {
+              "text": "SMAAShader",
+              "href": "pages/module-SMAAShader.html"
+            },
+            {
+              "text": "SSAOShader",
+              "href": "pages/module-SSAOShader.html"
+            },
+            {
+              "text": "SSRShader",
+              "href": "pages/module-SSRShader.html"
+            },
+            {
+              "text": "SepiaShader",
+              "href": "pages/module-SepiaShader.html"
+            },
+            {
+              "text": "SobelOperatorShader",
+              "href": "pages/module-SobelOperatorShader.html"
+            },
+            {
+              "text": "SubsurfaceScatteringShader",
+              "href": "pages/module-SubsurfaceScatteringShader.html"
+            },
+            {
+              "text": "TriangleBlurShader",
+              "href": "pages/module-TriangleBlurShader.html"
+            },
+            {
+              "text": "UnpackDepthRGBAShader",
+              "href": "pages/module-UnpackDepthRGBAShader.html"
+            },
+            {
+              "text": "VelocityShader",
+              "href": "pages/module-VelocityShader.html"
+            },
+            {
+              "text": "VerticalBlurShader",
+              "href": "pages/module-VerticalBlurShader.html"
+            },
+            {
+              "text": "VerticalTiltShiftShader",
+              "href": "pages/module-VerticalTiltShiftShader.html"
+            },
+            {
+              "text": "VignetteShader",
+              "href": "pages/module-VignetteShader.html"
+            },
+            {
+              "text": "VolumeShader",
+              "href": "pages/module-VolumeShader.html"
+            },
+            {
+              "text": "WaterRefractionShader",
+              "href": "pages/module-WaterRefractionShader.html"
+            }
+          ]
+        },
+        {
+          "name": "TSL",
+          "items": [
+            {
+              "text": "AfterImageNode",
+              "href": "pages/AfterImageNode.html"
+            },
+            {
+              "text": "AnaglyphPassNode",
+              "href": "pages/AnaglyphPassNode.html"
+            },
+            {
+              "text": "AnamorphicNode",
+              "href": "pages/AnamorphicNode.html"
+            },
+            {
+              "text": "BloomNode",
+              "href": "pages/BloomNode.html"
+            },
+            {
+              "text": "ChromaticAberrationNode",
+              "href": "pages/ChromaticAberrationNode.html"
+            },
+            {
+              "text": "DenoiseNode",
+              "href": "pages/DenoiseNode.html"
+            },
+            {
+              "text": "DepthOfFieldNode",
+              "href": "pages/DepthOfFieldNode.html"
+            },
+            {
+              "text": "DotScreenNode",
+              "href": "pages/DotScreenNode.html"
+            },
+            {
+              "text": "FXAANode",
+              "href": "pages/FXAANode.html"
+            },
+            {
+              "text": "FilmNode",
+              "href": "pages/FilmNode.html"
+            },
+            {
+              "text": "GTAONode",
+              "href": "pages/GTAONode.html"
+            },
+            {
+              "text": "GaussianBlurNode",
+              "href": "pages/GaussianBlurNode.html"
+            },
+            {
+              "text": "LensflareNode",
+              "href": "pages/LensflareNode.html"
+            },
+            {
+              "text": "Lut3DNode",
+              "href": "pages/Lut3DNode.html"
+            },
+            {
+              "text": "OutlineNode",
+              "href": "pages/OutlineNode.html"
+            },
+            {
+              "text": "ParallaxBarrierPassNode",
+              "href": "pages/ParallaxBarrierPassNode.html"
+            },
+            {
+              "text": "PixelationNode",
+              "href": "pages/PixelationNode.html"
+            },
+            {
+              "text": "PixelationPassNode",
+              "href": "pages/PixelationPassNode.html"
+            },
+            {
+              "text": "RGBShiftNode",
+              "href": "pages/RGBShiftNode.html"
+            },
+            {
+              "text": "SMAANode",
+              "href": "pages/SMAANode.html"
+            },
+            {
+              "text": "SSAAPassNode",
+              "href": "pages/SSAAPassNode.html"
+            },
+            {
+              "text": "SSGINode",
+              "href": "pages/SSGINode.html"
+            },
+            {
+              "text": "SSRNode",
+              "href": "pages/SSRNode.html"
+            },
+            {
+              "text": "SSSNode",
+              "href": "pages/SSSNode.html"
+            },
+            {
+              "text": "SobelOperatorNode",
+              "href": "pages/SobelOperatorNode.html"
+            },
+            {
+              "text": "StereoCompositePassNode",
+              "href": "pages/StereoCompositePassNode.html"
+            },
+            {
+              "text": "StereoPassNode",
+              "href": "pages/StereoPassNode.html"
+            },
+            {
+              "text": "TRAANode",
+              "href": "pages/TRAANode.html"
+            },
+            {
+              "text": "TileShadowNode",
+              "href": "pages/TileShadowNode.html"
+            },
+            {
+              "text": "TileShadowNodeHelper",
+              "href": "pages/TileShadowNodeHelper.html"
+            },
+            {
+              "text": "TiledLightsNode",
+              "href": "pages/TiledLightsNode.html"
+            },
+            {
+              "text": "TransitionNode",
+              "href": "pages/TransitionNode.html"
+            },
+            {
+              "text": "Bayer",
+              "href": "pages/module-Bayer.html"
+            },
+            {
+              "text": "Raymarching",
+              "href": "pages/module-Raymarching.html"
+            }
+          ]
+        },
+        {
+          "name": "Textures",
+          "items": [
+            {
+              "text": "FlakesTexture",
+              "href": "pages/FlakesTexture.html"
+            }
+          ]
+        },
+        {
+          "name": "Transpiler",
+          "items": [
+            {
+              "text": "Transpiler",
+              "href": "pages/Transpiler.html"
+            }
+          ]
+        },
+        {
+          "name": "Utils",
+          "items": [
+            {
+              "text": "LDrawUtils",
+              "href": "pages/LDrawUtils.html"
+            },
+            {
+              "text": "SceneOptimizer",
+              "href": "pages/SceneOptimizer.html"
+            },
+            {
+              "text": "ShadowMapViewer",
+              "href": "pages/ShadowMapViewer.html"
+            },
+            {
+              "text": "WorkerPool",
+              "href": "pages/WorkerPool.html"
+            },
+            {
+              "text": "BufferGeometryUtils",
+              "href": "pages/module-BufferGeometryUtils.html"
+            },
+            {
+              "text": "CameraUtils",
+              "href": "pages/module-CameraUtils.html"
+            },
+            {
+              "text": "GeometryCompressionUtils",
+              "href": "pages/module-GeometryCompressionUtils.html"
+            },
+            {
+              "text": "GeometryUtils",
+              "href": "pages/module-GeometryUtils.html"
+            },
+            {
+              "text": "SceneUtils",
+              "href": "pages/module-SceneUtils.html"
+            },
+            {
+              "text": "SkeletonUtils",
+              "href": "pages/module-SkeletonUtils.html"
+            },
+            {
+              "text": "SortUtils",
+              "href": "pages/module-SortUtils.html"
+            },
+            {
+              "text": "UVsDebug",
+              "href": "pages/module-UVsDebug.html"
+            },
+            {
+              "text": "WebGLTextureUtils",
+              "href": "pages/module-WebGLTextureUtils.html"
+            },
+            {
+              "text": "WebGPUTextureUtils",
+              "href": "pages/module-WebGPUTextureUtils.html"
+            }
+          ]
+        },
+        {
+          "name": "Webxr",
+          "items": [
+            {
+              "text": "ARButton",
+              "href": "pages/ARButton.html"
+            },
+            {
+              "text": "OculusHandModel",
+              "href": "pages/OculusHandModel.html"
+            },
+            {
+              "text": "OculusHandPointerModel",
+              "href": "pages/OculusHandPointerModel.html"
+            },
+            {
+              "text": "VRButton",
+              "href": "pages/VRButton.html"
+            },
+            {
+              "text": "XRButton",
+              "href": "pages/XRButton.html"
+            },
+            {
+              "text": "XRControllerModel",
+              "href": "pages/XRControllerModel.html"
+            },
+            {
+              "text": "XRControllerModelFactory",
+              "href": "pages/XRControllerModelFactory.html"
+            },
+            {
+              "text": "XREstimatedLight",
+              "href": "pages/XREstimatedLight.html"
+            },
+            {
+              "text": "XRHandMeshModel",
+              "href": "pages/XRHandMeshModel.html"
+            },
+            {
+              "text": "XRHandModel",
+              "href": "pages/XRHandModel.html"
+            },
+            {
+              "text": "XRHandModelFactory",
+              "href": "pages/XRHandModelFactory.html"
+            },
+            {
+              "text": "XRHandPrimitiveModel",
+              "href": "pages/XRHandPrimitiveModel.html"
+            },
+            {
+              "text": "XRPlanes",
+              "href": "pages/XRPlanes.html"
+            },
+            {
+              "text": "Text2D",
+              "href": "pages/module-Text2D.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TSL",
+      "subcategories": []
+    },
+    {
+      "name": "Global",
+      "subcategories": []
+    }
+  ]
+}

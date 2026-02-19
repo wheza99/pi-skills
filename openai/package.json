@@ -1,0 +1,16 @@
+{
+  "name": "openai-skill",
+  "version": "1.0.0",
+  "description": "OpenAI API helper scripts for pi coding agent",
+  "scripts": {
+    "chat": "node scripts/chat.js",
+    "embed": "node scripts/embed.js",
+    "image": "node scripts/image.js",
+    "tts": "node scripts/tts.js",
+    "stt": "node scripts/stt.js",
+    "moderate": "node scripts/moderate.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  }
+}
